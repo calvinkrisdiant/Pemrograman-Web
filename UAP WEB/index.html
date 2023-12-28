@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaksi Penjualan UAP WEB</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+    <h1>Transaksi Penjualan Barang</h1>
+    <ul> 
+        <td> UAP Pemrograman Web</td>
+    </ul>
+
+
+<h2>Inputan User</h2>
+    <label for="idBarang">Kode Barang:</label>
+    <input type="text" id="idBarang" placeholder="Masukkan Kode barang">
+<ul>
+    <label for="jumlahBarang">Banyak Barang:</label>
+    <input type="number" id="jumlahBarang" placeholder="Masukkan banyak barang">
+
+    <button onclick="hitungTotal()">Hitung Total</button>
+</ul>
+    
+
+    <h3>Tabel Barang</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Kode Barang</th>
+                <th>Nama Barang</th>
+                <th>Harga</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>Minuman</td>
+                <td>10.000</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Snack</td>
+                <td>20.000</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>Makanan</td>
+                <td>30.000</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
